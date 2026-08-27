@@ -1,0 +1,15 @@
+import java.util.Scanner;
+
+public class Function_Print_Name {
+    public static void printMyName(String name){
+        System.out.println(name);
+        return;
+    }
+    public static void main(String[] args) {
+        Scanner sc = new Scanner(System.in);
+        System.out.print("Enter you name : ");
+        String name = sc.next();
+
+        printMyName(name);
+    }
+}
